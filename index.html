@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meta Growth Labs | Performance Marketing & Web3 Growth</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Inter',sans-serif;
+}
+
+body{
+background:#0B0E11;
+color:#fff;
+line-height:1.6;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
+
+header{
+position:fixed;
+top:0;
+width:100%;
+background:rgba(11,14,17,.95);
+backdrop-filter:blur(10px);
+z-index:1000;
+border-bottom:1px solid rgba(240,185,11,.15);
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 0;
+}
+
+.logo{
+font-size:28px;
+font-weight:800;
+color:#F0B90B;
+}
+
+.nav-links{
+display:flex;
+gap:30px;
+}
+
+.nav-links a{
+color:#fff;
+text-decoration:none;
+transition:.3s;
+}
+
+.nav-links a:hover{
+color:#F0B90B;
+}
+
+.btn{
+display:inline-block;
+padding:14px 30px;
+background:#F0B90B;
+color:#000;
+font-weight:700;
+border-radius:8px;
+text-decoration:none;
+transition:.3s;
+}
+
+.btn:hover{
+transform:translateY(-3px);
+}
+
+.hero{
+padding:180px 0 120px;
+}
+
+.hero-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+align-items:center;
+gap:60px;
+}
+
+.hero h1{
+font-size:64px;
+line-height:1.1;
+margin-bottom:20px;
+}
+
+.hero h1 span{
+color:#F0B90B;
+}
+
+.hero p{
+font-size:20px;
+color:#bbb;
+margin-bottom:35px;
+}
+
+.hero-card{
+background:#161A1E;
+padding:40px;
+border-radius:20px;
+border:1px solid rgba(240,185,11,.2);
+}
+
+.stats{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:20px;
+}
+
+.stat{
+background:#0f1317;
+padding:20px;
+border-radius:12px;
+text-align:center;
+}
+
+.stat h2{
+color:#F0B90B;
+}
+
+section{
+padding:100px 0;
+}
+
+.section-title{
+text-align:center;
+font-size:42px;
+margin-bottom:15px;
+}
+
+.section-sub{
+text-align:center;
+color:#999;
+margin-bottom:60px;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:25px;
+}
+
+.card{
+background:#161A1E;
+padding:30px;
+border-radius:16px;
+transition:.3s;
+border:1px solid transparent;
+}
+
+.card:hover{
+border-color:#F0B90B;
+transform:translateY(-8px);
+}
+
+.card h3{
+color:#F0B90B;
+margin-bottom:15px;
+}
+
+.why{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.case-study{
+background:#161A1E;
+padding:40px;
+border-radius:20px;
+margin-bottom:25px;
+}
+
+.case-study h3{
+color:#F0B90B;
+margin-bottom:15px;
+}
+
+.contact{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+}
+
+form{
+background:#161A1E;
+padding:30px;
+border-radius:16px;
+}
+
+input,textarea{
+width:100%;
+padding:15px;
+margin-bottom:15px;
+background:#0f1317;
+border:none;
+border-radius:8px;
+color:white;
+}
+
+button{
+width:100%;
+padding:15px;
+background:#F0B90B;
+border:none;
+border-radius:8px;
+font-weight:700;
+cursor:pointer;
+}
+
+footer{
+background:#161A1E;
+padding:40px 0;
+text-align:center;
+margin-top:50px;
+}
+
+@media(max-width:768px){
+
+.hero-grid,
+.contact{
+grid-template-columns:1fr;
+}
+
+.hero h1{
+font-size:42px;
+}
+
+.nav-links{
+display:none;
+}
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="container">
+<nav>
+<div class="logo">Meta Growth Labs</div>
+
+<div class="nav-links">
+<a href="#services">Services</a>
+<a href="#why">Why Us</a>
+<a href="#case">Case Studies</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+</div>
+</header>
+
+<section class="hero">
+<div class="container">
+<div class="hero-grid">
+
+<div>
+<h1>Scale Your Brand With <span>Performance Marketing</span></h1>
+
+<p>
+We help Web3 projects, startups, eCommerce brands and businesses grow through Google Ads, Meta Ads, SEO and community marketing.
+</p>
+
+<a href="#contact" class="btn">Book Free Consultation</a>
+</div>
+
+<div class="hero-card">
+<div class="stats">
+<div class="stat">
+<h2>$500K+</h2>
+<p>Ad Spend Managed</p>
+</div>
+
+<div class="stat">
+<h2>50+</h2>
+<p>Projects Scaled</p>
+</div>
+
+<div class="stat">
+<h2>3M+</h2>
+<p>Leads Generated</p>
+</div>
+
+<div class="stat">
+<h2>100M+</h2>
+<p>Impressions</p>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<section id="services">
+<div class="container">
+
+<h2 class="section-title">Our Services</h2>
+<p class="section-sub">Growth solutions designed to scale your business.</p>
+
+<div class="services">
+
+<div class="card">
+<h3>Google Ads</h3>
+<p>Search, Display, YouTube and Performance Max campaigns.</p>
+</div>
+
+<div class="card">
+<h3>Meta Ads</h3>
+<p>Facebook & Instagram campaigns focused on ROI.</p>
+</div>
+
+<div class="card">
+<h3>SEO</h3>
+<p>Technical SEO, Parasite SEO and content growth.</p>
+</div>
+
+<div class="card">
+<h3>Web3 Marketing</h3>
+<p>Community growth, token launches and KOL campaigns.</p>
+</div>
+
+<div class="card">
+<h3>Influencer Marketing</h3>
+<p>Influencer collaborations and brand awareness campaigns.</p>
+</div>
+
+<div class="card">
+<h3>Lead Generation</h3>
+<p>High-converting funnels and customer acquisition systems.</p>
+</div>
+
+</div>
+</div>
+</section>
+
+<section id="why">
+<div class="container">
+
+<h2 class="section-title">Why Choose Us</h2>
+
+<div class="why">
+
+<div class="card">
+<h3>ROI Focused</h3>
+<p>Every campaign is optimized for measurable business growth.</p>
+</div>
+
+<div class="card">
+<h3>Web2 + Web3 Experts</h3>
+<p>Unique experience across traditional and crypto markets.</p>
+</div>
+
+<div class="card">
+<h3>Transparent Reporting</h3>
+<p>Weekly and monthly reporting with actionable insights.</p>
+</div>
+
+<div class="card">
+<h3>Growth Systems</h3>
+<p>Scalable acquisition frameworks for long-term success.</p>
+</div>
+
+</div>
+</div>
+</section>
+
+<section id="case">
+<div class="container">
+
+<h2 class="section-title">Case Studies</h2>
+
+<div class="case-study">
+<h3>E-Commerce Brand</h3>
+<p>
+Reduced customer acquisition cost by 42% and increased ROAS by 3.7x using Meta Ads.
+</p>
+</div>
+
+<div class="case-study">
+<h3>Crypto Launch Campaign</h3>
+<p>
+Generated 50,000+ community members and millions of impressions before launch.
+</p>
+</div>
+
+<div class="case-study">
+<h3>Lead Generation</h3>
+<p>
+Generated qualified leads at 35% lower CPL through Google Ads.
+</p>
+</div>
+
+</div>
+</section>
+
+<section id="contact">
+<div class="container">
+
+<h2 class="section-title">Let's Grow Together</h2>
+
+<div class="contact">
+
+<div>
+<h3 style="color:#F0B90B;margin-bottom:20px;">
+Meta Growth Labs
+</h3>
+
+<p>Email: usamasaleem9719@gmail.com</p>
+<p>Telegram: @Md_Usaamah</p>
+
+<br>
+
+<p>
+Ready to scale your business with paid advertising, SEO and Web3 growth strategies?
+</p>
+</div>
+
+<form>
+<input type="text" placeholder="Your Name">
+<input type="email" placeholder="Your Email">
+<input type="text" placeholder="Company Name">
+<textarea rows="5" placeholder="Tell us about your project"></textarea>
+<button type="submit">Submit Inquiry</button>
+</form>
+
+</div>
+
+</div>
+</section>
+
+<footer>
+<div class="container">
+<p>© 2026 Meta Growth Labs. All Rights Reserved.</p>
+</div>
+</footer>
+
+</body>
+</html>
